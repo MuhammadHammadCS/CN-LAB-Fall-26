@@ -1,0 +1,7 @@
+scenario,protocol,transmitted,retransmissions,delivered,time_s,throughput_kbps
+A: Reliable,GBN,200,0,200,25.22,63.442
+A: Reliable,SR,200,0,200,25.22,63.442
+B: Loss 0.10,GBN,280,80,200,50.909,31.428
+B: Loss 0.10,SR,248,48,200,54.739,29.23
+C: Mixed (L.05/C.05/D.10),GBN,310,110,200,61.078,26.196
+C: Mixed (L.05/C.05/D.10),SR,259,59,200,64.562,24.782
